@@ -1,16 +1,30 @@
-# portfolio
+# Flutter Portfolio App 👏👍🔥
 
-A new Flutter project.
 
-## Getting Started
+## Demo URL
+https://khalid-alsaleh-dev.github.io/#/
 
-This project is a starting point for a Flutter application.
+  
 
-A few resources to get you started if this is your first Flutter project:
+This project designed using figma and built using flutter.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+## 💻 Requirements 
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Any Operating System (MacOS, Linux, Windows)
+- Any IDE with Flutter SDK installed (Android Studio, VSCode etc)
+- A little knowledge of Dart and Flutter
+
+## Download The Project,Install Dependencies && Run The Project 
+- Run the next command to Clone the repo to your machine `git clone https://github.com/khalid-alsaleh-dev/FlutterPortfolio.git`
+- Run the next commands to install the required dependencies
+  1. `cd <../path/to/FlutterPortfolio>`
+  2. `flutter pub get`
+- Run the next command to run the project `flutter run`
+  
+
+## 🖼 Screenshots
+![Capture](https://user-images.githubusercontent.com/67127338/148690822-cf264ffe-5772-4bb4-9753-a7102dfa8853.PNG)
+![Capture2](https://user-images.githubusercontent.com/67127338/148690849-7989a4a9-b791-4230-a7b7-d67c6c9f9e5f.PNG)
+
+## 👨‍💻 Auther
+Khalid Al-Saleh  khalidlionel.2089@gmail.com
