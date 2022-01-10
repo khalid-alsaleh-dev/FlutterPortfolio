@@ -1,12 +1,13 @@
 # Flutter Portfolio App 👏👍🔥
 
+This project designed using figma and built using flutter.
+
 
 ## Demo URL
 https://khalid-alsaleh-dev.github.io/#/
 
   
 
-This project designed using figma and built using flutter.
 
 ## 💻 Requirements 
 
