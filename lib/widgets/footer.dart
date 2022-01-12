@@ -24,6 +24,10 @@ class Footer extends StatelessWidget {
             ? Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
+                   Text('Copyright © 2021 khalid-alsaleh-dev',
+                      style: GoogleFonts.getFont('Delius',
+                          color: const Color(CustomColors.grayColor),
+                          fontSize: 14)),
                   Text('All rights reserved',
                       style: GoogleFonts.getFont('Delius',
                           color: const Color(CustomColors.grayColor),
@@ -36,7 +40,12 @@ class Footer extends StatelessWidget {
               )
             : Column(
                 children: [
-                  Text('All rights reserved',
+                  Text('Copyright © 2021 khalid-alsaleh-dev',
+                      style: GoogleFonts.getFont('Delius',
+                          color: const Color(CustomColors.grayColor),
+                          fontSize: 14)),
+                          const SizedBox(height: 10),
+                          Text(' All rights reserved',
                       style: GoogleFonts.getFont('Delius',
                           color: const Color(CustomColors.grayColor),
                           fontSize: 14)),
