@@ -3,7 +3,7 @@ import 'package:get/get.dart';
 import 'package:portfolio/utils/breakpoints.dart';
 import 'package:portfolio/utils/custom_colors.dart';
 import 'package:portfolio/widgets/footer.dart';
-import 'package:portfolio/widgets/lower_containter.dart';
+import 'package:portfolio/widgets/lower_container.dart';
 import 'package:portfolio/widgets/upper_container.dart';
 import 'package:portfolio/widgets/nav_bar.dart';
 
