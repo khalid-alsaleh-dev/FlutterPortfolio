@@ -1,4 +1,4 @@
-class BreakPoints{
+class Breakpoints{
 static const int xlg=950;
 static const int lg=860;
 static const int md=635;
