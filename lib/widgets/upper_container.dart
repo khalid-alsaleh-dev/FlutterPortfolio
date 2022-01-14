@@ -31,7 +31,7 @@ class UpperContainer extends StatelessWidget {
               )
             ],
           );
-        } else if (consraints.maxWidth < BreakPoints.lg && consraints.maxWidth >= BreakPoints.md) {
+        } else if (consraints.maxWidth < Breakpoints.lg && consraints.maxWidth >= Breakpoints.md) {
           return Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
