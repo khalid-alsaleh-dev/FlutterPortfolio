@@ -17,16 +17,16 @@ class Info extends StatelessWidget {
           Text(
               '• I’m studying informatics engineering at the University Of Aleppo.',
               style: GoogleFonts.getFont('Delius',
-                  color: const Color(CustomColors.grayColor), fontSize: 13)),
+                  color: CustomColors.gray, fontSize: 13)),
           const SizedBox(height: 20),
           Text('• The Only thing that makes me feel happy is coding.',
               style: GoogleFonts.getFont('Delius',
-                  color: const Color(CustomColors.grayColor), fontSize: 13)),
+                  color: CustomColors.gray, fontSize: 13)),
           const SizedBox(height: 20),
           Text(
               '• I always try to discover the new and the best technologies and use them to make my client feel comfortable and satisfied. ',
               style: GoogleFonts.getFont('Delius',
-                  color: const Color(CustomColors.grayColor), fontSize: 13)),
+                  color: CustomColors.gray, fontSize: 13)),
         ],
       ),
     );

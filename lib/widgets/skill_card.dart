@@ -21,7 +21,7 @@ class SkillCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Card(
-      color: const Color(CustomColors.brightBackgroundColor),
+      color: CustomColors.brightBackground,
       child: SizedBox(
         width: width * ratio,
         child: Stack(
@@ -34,7 +34,7 @@ class SkillCard extends StatelessWidget {
                 children: [
                   Text(title,
                       style: GoogleFonts.getFont('Delius',
-                          color: const Color(CustomColors.primaryColor),
+                          color: CustomColors.primary,
                           fontSize: 16)),
                   const SizedBox(height: 8),
                   Text("Freelancing",
@@ -43,7 +43,7 @@ class SkillCard extends StatelessWidget {
                   const SizedBox(height: 10),
                   Text(description,
                       style: GoogleFonts.getFont('Delius',
-                          color: const Color(CustomColors.grayColor),
+                          color: CustomColors.gray,
                           fontSize: 12)),
                 ],
               ),

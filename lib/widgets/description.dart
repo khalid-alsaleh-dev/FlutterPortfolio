@@ -24,7 +24,7 @@ class Description extends StatelessWidget {
               width: 135,
               height: 40,
               alignment: Alignment.center,
-              color: const Color(CustomColors.primaryColor),
+              color: CustomColors.primary,
               child: Center(
                   child: Text('Software Engineer',
                       style: GoogleFonts.getFont('Days One',
@@ -49,7 +49,7 @@ class Description extends StatelessWidget {
                     "I'm developing mobile,frontend and backend applications",
                     textAlign: isVertical ? TextAlign.center : TextAlign.start,
                     textStyle: GoogleFonts.getFont('Delius',
-                        color: const Color(CustomColors.grayColor),
+                        color: CustomColors.gray,
                         fontSize: 15)),
               ],
             ),
@@ -60,7 +60,7 @@ class Description extends StatelessWidget {
             child: Text("Let's chat",
                 style: GoogleFonts.getFont('Delius',
                     decoration: TextDecoration.underline,
-                    color: const Color(CustomColors.primaryColor),
+                    color: CustomColors.primary,
                     fontSize: 20)),
           )
         ],

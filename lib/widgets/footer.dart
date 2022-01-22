@@ -12,7 +12,7 @@ class Footer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-        color: const Color(CustomColors.darkBackgroundColor),
+        color: CustomColors.darkBackground,
         padding: const EdgeInsets.symmetric(vertical: 20),
         width: width,
         child: Column(
@@ -26,15 +26,15 @@ class Footer extends StatelessWidget {
                 children: [
                    Text('Copyright © 2021 khalid-alsaleh-dev',
                       style: GoogleFonts.getFont('Delius',
-                          color: const Color(CustomColors.grayColor),
+                          color: CustomColors.gray,
                           fontSize: 14)),
                   Text('All rights reserved',
                       style: GoogleFonts.getFont('Delius',
-                          color: const Color(CustomColors.grayColor),
+                          color: CustomColors.gray,
                           fontSize: 14)),
                   Text('khalidlionel.2089@gmail.com',
                       style: GoogleFonts.getFont('Delius',
-                          color: const Color(CustomColors.grayColor),
+                          color: CustomColors.gray,
                           fontSize: 14)),
                 ],
               )
@@ -42,17 +42,17 @@ class Footer extends StatelessWidget {
                 children: [
                   Text('Copyright © 2021 khalid-alsaleh-dev',
                       style: GoogleFonts.getFont('Delius',
-                          color: const Color(CustomColors.grayColor),
+                          color: CustomColors.gray,
                           fontSize: 14)),
                           const SizedBox(height: 10),
                           Text(' All rights reserved',
                       style: GoogleFonts.getFont('Delius',
-                          color: const Color(CustomColors.grayColor),
+                          color: CustomColors.gray,
                           fontSize: 14)),
                   const SizedBox(height: 10),
                   Text('khalidlionel.2089@gmail.com',
                       style: GoogleFonts.getFont('Delius',
-                          color: const Color(CustomColors.grayColor),
+                          color: CustomColors.gray,
                           fontSize: 14)),
                 ],
               ),

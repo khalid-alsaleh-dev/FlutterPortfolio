@@ -123,7 +123,7 @@ class NavBar extends StatelessWidget {
                   height: data.value,
                   width: double.infinity,
                   decoration: const BoxDecoration(
-                    color: Color(CustomColors.darkBackgroundColor),
+                    color: CustomColors.darkBackground,
                   ),
                   child: SingleChildScrollView(
                     child: Column(

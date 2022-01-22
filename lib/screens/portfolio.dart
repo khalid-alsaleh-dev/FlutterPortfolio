@@ -33,43 +33,43 @@ class _PortfolioState extends State<Portfolio> {
     intrests = [
       {
         'intrest': 'Beatbox',
-        'color': const Color(CustomColors.primaryColor),
-        'textColor': const Color(CustomColors.darkBackgroundColor),
+        'color': CustomColors.primary,
+        'textColor': CustomColors.darkBackground,
       },
       {
         'intrest': 'Chess',
-        'color': const Color(CustomColors.brightBackgroundColor),
-        'textColor': const Color(CustomColors.primaryColor),
+        'color': CustomColors.brightBackground,
+        'textColor': CustomColors.primary,
       },
       {
         'intrest': 'Soccer',
-        'color': const Color(CustomColors.primaryColor),
-        'textColor': const Color(CustomColors.darkBackgroundColor),
+        'color': CustomColors.primary,
+        'textColor': CustomColors.darkBackground,
       },
       {
         'intrest': 'Listening to music',
-        'color': const Color(CustomColors.brightBackgroundColor),
-        'textColor': const Color(CustomColors.primaryColor),
+        'color': CustomColors.brightBackground,
+        'textColor': CustomColors.primary,
       },
       {
         'intrest': 'Watching movies',
-        'color': const Color(CustomColors.brightBackgroundColor),
-        'textColor': const Color(CustomColors.primaryColor),
+        'color': CustomColors.brightBackground,
+        'textColor': CustomColors.primary,
       },
       {
         'intrest': 'Math',
-        'color': const Color(CustomColors.primaryColor),
-        'textColor': const Color(CustomColors.darkBackgroundColor),
+        'color': CustomColors.primary,
+        'textColor': CustomColors.darkBackground,
       },
       {
         'intrest': 'Learning English',
-        'color': const Color(CustomColors.brightBackgroundColor),
-        'textColor': const Color(CustomColors.primaryColor),
+        'color': CustomColors.brightBackground,
+        'textColor': CustomColors.primary,
       },
       {
         'intrest': 'Solving Problems',
-        'color': const Color(CustomColors.primaryColor),
-        'textColor': const Color(CustomColors.darkBackgroundColor),
+        'color': CustomColors.primary,
+        'textColor': CustomColors.darkBackground,
       },
     ];
 
@@ -97,13 +97,13 @@ class _PortfolioState extends State<Portfolio> {
                         scrollController.position.minScrollExtent,
                         duration: const Duration(milliseconds: 700),
                         curve: Curves.easeInOut),
-                    backgroundColor: const Color(CustomColors.primaryColor),
+                    backgroundColor: CustomColors.primary,
                     child: const Icon(Icons.arrow_upward,
-                        color: Color(CustomColors.darkBackgroundColor))),
+                        color: CustomColors.darkBackground)),
               ),
           showFloatingButton),
       body: Container(
-        color: const Color(CustomColors.brightBackgroundColor),
+        color: CustomColors.brightBackground,
         width: width,
         child: SingleChildScrollView(
           controller: scrollController,
@@ -121,7 +121,7 @@ class _PortfolioState extends State<Portfolio> {
                   Container(
                     width: width,
                     height: 0.1,
-                    color: const Color(CustomColors.grayColor),
+                    color:CustomColors.gray,
                   ),
                   Footer(width: width,scrollController: scrollController,),
                 ],

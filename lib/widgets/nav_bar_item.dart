@@ -40,7 +40,7 @@ class NavBarItem extends StatelessWidget {
                   style: TextStyle(
                     fontSize: 12.0,
                     color: data.value
-                        ? const Color(CustomColors.primaryColor)
+                        ? CustomColors.primary
                         : Colors.white,
                   ),
                 ),
@@ -51,7 +51,7 @@ class NavBarItem extends StatelessWidget {
                     ? Container(
                         width: 40,
                         height: 1,
-                        color: const Color(CustomColors.primaryColor),
+                        color: CustomColors.primary,
                       )
                     : const SizedBox.shrink()
               ],

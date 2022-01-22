@@ -13,7 +13,7 @@ class UpperContainer extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       width: width,
-      color: const Color(CustomColors.brightBackgroundColor),
+      color: CustomColors.brightBackground,
       padding: const EdgeInsets.only(bottom:20),
       child: LayoutBuilder(builder: (context, consraints) {
         if (consraints.maxWidth >= BreakPoints.lg) {

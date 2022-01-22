@@ -22,7 +22,7 @@ class Intrest extends StatelessWidget {
           color: color,
           border: Border.all(
               color: (textColor == Colors.black)
-                  ? const Color(CustomColors.primaryColor)
+                  ? CustomColors.primary
                   : textColor)),
       child: Center(
           child: Text('.' + intrest,

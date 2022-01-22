@@ -17,7 +17,7 @@ class NavBarItemWithIcon extends StatelessWidget {
       style: ButtonStyle(
         elevation: MaterialStateProperty.all<double>(0),
         backgroundColor: MaterialStateProperty.all<Color>(
-            const Color(CustomColors.brightBackgroundColor)),
+            CustomColors.brightBackground),
       ),
       icon: Image.asset(icon),
       onPressed: () async {

@@ -53,7 +53,7 @@ class KhalidImage extends StatelessWidget {
             width: width * 0.007,
             height: width * 0.007,
             decoration: const BoxDecoration(
-                color: Color(CustomColors.primaryColor),
+                color: CustomColors.primary,
                 borderRadius: BorderRadius.all(Radius.circular(50))),
           ),
         ),
@@ -64,7 +64,7 @@ class KhalidImage extends StatelessWidget {
             width: width * 0.007,
             height: width * 0.007,
             decoration: const BoxDecoration(
-                color: Color(CustomColors.purpleColor),
+                color: CustomColors.purple,
                 borderRadius: BorderRadius.all(Radius.circular(50))),
           ),
         ),
@@ -75,7 +75,7 @@ class KhalidImage extends StatelessWidget {
             width: width * 0.007,
             height: width * 0.007,
             decoration: const BoxDecoration(
-                color: Color(CustomColors.secondaryColor),
+                color: CustomColors.secondary,
                 borderRadius: BorderRadius.all(Radius.circular(50))),
           ),
         ),
@@ -86,7 +86,7 @@ class KhalidImage extends StatelessWidget {
             width: width * 0.012,
             height: width * 0.012,
             decoration: const BoxDecoration(
-                color: Color(CustomColors.darkBackgroundColor),
+                color: CustomColors.darkBackground,
                 borderRadius: BorderRadius.all(Radius.circular(50))),
           ),
         )

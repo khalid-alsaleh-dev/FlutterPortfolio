@@ -19,9 +19,9 @@ class NavBarButton extends StatelessWidget {
         shape: const CircleBorder(),
         padding: EdgeInsets.all(width >= BreakPoints.md? 0.03 * width : 0.03 * 762),
         primary:
-            const Color(CustomColors.darkBackgroundColor), // <-- Button color
+            CustomColors.darkBackground, // <-- Button color
         onPrimary:
-            const Color(CustomColors.brightBackgroundColor), // <-- Splash color
+            CustomColors.brightBackground, // <-- Splash color
       ),
     );
   }

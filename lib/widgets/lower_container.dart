@@ -28,7 +28,7 @@ class LowerContainer extends StatelessWidget {
     return Container(
         width: width,
         key: skillsKey,
-        color: const Color(CustomColors.darkBackgroundColor),
+        color: CustomColors.darkBackground,
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [

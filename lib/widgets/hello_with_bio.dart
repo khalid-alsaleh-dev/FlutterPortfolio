@@ -21,7 +21,7 @@ class HelloWithBio extends StatelessWidget {
           Text(
               'I seek challenging opportunities where I can fully use my skills for the success.',
               style: GoogleFonts.getFont('Delius',
-                  color: const Color(CustomColors.grayColor), fontSize: 16)),
+                  color: CustomColors.gray, fontSize: 16)),
         ],
       ),
     );
