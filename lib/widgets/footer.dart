@@ -20,7 +20,7 @@ class Footer extends StatelessWidget {
           children: [
              Logo(width: width,scrollController: scrollController,),
              const SizedBox(height:22),
-          width > BreakPoints.sm
+          width > Breakpoints.sm
             ? Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [

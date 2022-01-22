@@ -48,7 +48,7 @@ class SkillCard extends StatelessWidget {
                 ],
               ),
             ),
-            width >= BreakPoints.md
+            width >= Breakpoints.md
                 ? Positioned(
                     child: Image.asset(icon),
                     top: 20,

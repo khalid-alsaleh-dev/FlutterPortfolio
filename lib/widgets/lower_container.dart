@@ -34,7 +34,7 @@ class LowerContainer extends StatelessWidget {
           children: [
             const SizedBox(height: 50),
             LayoutBuilder(builder: (context, constraints) {
-              if (constraints.maxWidth >= BreakPoints.lg) {
+              if (constraints.maxWidth >= Breakpoints.lg) {
                 return Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
@@ -142,7 +142,7 @@ class LowerContainer extends StatelessWidget {
             ),
             Container(
               alignment: Alignment.centerLeft,
-              margin: EdgeInsets.only(left:width>=BreakPoints.lg? width * 0.1:width * 0.05),
+              margin: EdgeInsets.only(left:width>=Breakpoints.lg? width * 0.1:width * 0.05),
               child: Text('Some of my intrests',
                   style: GoogleFonts.getFont('Delius',
                       color: Colors.white, fontSize: 19)),
@@ -150,7 +150,7 @@ class LowerContainer extends StatelessWidget {
             SizedBox(height: width * 0.03),
             // 820
             LayoutBuilder(builder: (context, constraints) {
-              if (constraints.maxWidth >= BreakPoints.lg) {
+              if (constraints.maxWidth >= Breakpoints.lg) {
                 return SizedBox(
                   width: width * 0.76,
                   height: 100,
@@ -171,8 +171,8 @@ class LowerContainer extends StatelessWidget {
                     crossAxisSpacing: 40.0,
                   ),
                 );
-              } else if (constraints.maxWidth < BreakPoints.lg &&
-                  constraints.maxWidth >= BreakPoints.sm) {
+              } else if (constraints.maxWidth < Breakpoints.lg &&
+                  constraints.maxWidth >= Breakpoints.sm) {
                 return SizedBox(
                   width: width * 0.76,
                   height: 180,

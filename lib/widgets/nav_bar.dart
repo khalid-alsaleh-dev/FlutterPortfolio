@@ -136,7 +136,7 @@ class NavBar extends StatelessWidget {
           height: 80.0,
           margin: const EdgeInsets.only(top: 40.0),
           padding: const EdgeInsets.symmetric(horizontal: 24.0),
-          child: (width < BreakPoints.xlg)
+          child: (width < Breakpoints.xlg)
               ? Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [

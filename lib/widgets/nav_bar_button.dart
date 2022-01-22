@@ -17,7 +17,7 @@ class NavBarButton extends StatelessWidget {
       style: ElevatedButton.styleFrom(
         elevation: 4.0,
         shape: const CircleBorder(),
-        padding: EdgeInsets.all(width >= BreakPoints.md? 0.03 * width : 0.03 * 762),
+        padding: EdgeInsets.all(width >= Breakpoints.md? 0.03 * width : 0.03 * 762),
         primary:
             CustomColors.darkBackground, // <-- Button color
         onPrimary:
