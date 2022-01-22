@@ -77,7 +77,7 @@ class _PortfolioState extends State<Portfolio> {
       if (scrollController.offset >= Breakpoints.floatingButton) {
         showFloatingButton.value = true;
       } else if (scrollController.offset <
-          BreakPoints.floatingButton) {
+          Breakpoints.floatingButton) {
         showFloatingButton.value = false;
       }
     });

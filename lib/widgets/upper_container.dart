@@ -16,7 +16,7 @@ class UpperContainer extends StatelessWidget {
       color: CustomColors.brightBackground,
       padding: const EdgeInsets.only(bottom:20),
       child: LayoutBuilder(builder: (context, consraints) {
-        if (consraints.maxWidth >= BreakPoints.lg) {
+        if (consraints.maxWidth >= Breakpoints.lg) {
           return Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
