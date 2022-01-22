@@ -14,10 +14,13 @@ class KhalidImage extends StatelessWidget {
     return Stack(
       alignment: Alignment.center,
       children: [
-        Image.asset(
-          ImageAssetConstants.khalid,
-          width: width * 0.29,
-          height: width * 0.3,
+        Container(
+          constraints:const BoxConstraints(maxWidth:370),
+          child: Image.asset(
+            ImageAssetConstants.khalid,
+            width: width * 0.29,
+            height: width * 0.3,
+          ),
         ),
         Positioned(
           top: width * 0.17,
