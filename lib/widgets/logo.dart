@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:portfolio/utils/Image_asset_constants.dart';
+import 'package:portfolio/utils/image_asset_constants.dart';
 import 'package:portfolio/utils/breakpoints.dart';
 
 class Logo extends StatelessWidget {

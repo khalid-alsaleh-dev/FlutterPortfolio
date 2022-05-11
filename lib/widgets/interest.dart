@@ -2,12 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:portfolio/utils/custom_colors.dart';
 
-class Intrest extends StatelessWidget {
+class Inetrest extends StatelessWidget {
   final Color color;
   final Color textColor;
-  final String intrest;
-  const Intrest(
-      {required this.intrest,
+  final String interest;
+  const Inetrest(
+      {required this.interest,
       required this.color,
       required this.textColor,
       Key? key})

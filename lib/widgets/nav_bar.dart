@@ -11,13 +11,13 @@ import 'package:url_launcher/url_launcher.dart';
 
 class NavBar extends StatelessWidget {
   final double width;
-  final GlobalKey intrestsKey;
+  final GlobalKey interestsKey;
   final GlobalKey skillsKey;
   final ScrollController scrollController;
   late final RxDouble collapsableHeight;
   NavBar(
       {required this.width,
-      required this.intrestsKey,
+      required this.interestsKey,
       required this.skillsKey,
       required this.scrollController,
       Key? key})
@@ -38,7 +38,10 @@ class NavBar extends StatelessWidget {
     Widget navBarRow = Stack(children: [
       Padding(
         padding: EdgeInsets.only(left: width * 0.04),
-        child: Logo(width: width,scrollController: scrollController,),
+        child: Logo(
+          width: width,
+          scrollController: scrollController,
+        ),
       ),
       Row(
           crossAxisAlignment: CrossAxisAlignment.center,
@@ -51,8 +54,8 @@ class NavBar extends StatelessWidget {
             NavBarItem(
                 text: 'Skills', onTap: () => scrollToWidgetByKey(skillsKey)),
             NavBarItem(
-              text: 'Intrests',
-              onTap: () => scrollToWidgetByKey(intrestsKey),
+              text: 'interests',
+              onTap: () => scrollToWidgetByKey(interestsKey),
             ),
             const SizedBox(width: 60),
           ]),
@@ -94,9 +97,9 @@ class NavBar extends StatelessWidget {
           }),
       const SizedBox(width: 10),
       NavBarItem(
-          text: 'Intrests',
+          text: 'interests',
           onTap: () {
-            scrollToWidgetByKey(intrestsKey);
+            scrollToWidgetByKey(interestsKey);
             collapsableHeight.value = 0.0;
           }),
       NavBarItem(
@@ -142,7 +145,10 @@ class NavBar extends StatelessWidget {
                   children: [
                     Padding(
                         padding: EdgeInsets.only(left: width * 0.04),
-                        child: Logo(width: width,scrollController: scrollController,)),
+                        child: Logo(
+                          width: width,
+                          scrollController: scrollController,
+                        )),
                     NavBarButton(
                         onPressed: () {
                           if (collapsableHeight.value == 0.0) {
