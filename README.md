@@ -1,31 +1,29 @@
-# Flutter Portfolio App 👏👍🔥
+# Flutter Portfolio
 
-This project designed using figma and built using flutter.
+A responsive developer portfolio built with Flutter and designed in Figma. The live site presents my work and experience across mobile and web development.
 
+**Live demo:** https://khalid-alsaleh-dev.github.io/
 
-## Demo URL
-https://khalid-alsaleh-dev.github.io/#/
+## Tech stack
 
-  
+- Flutter
+- Dart
 
+## Run locally
 
-## 💻 Requirements 
+1. Install the Flutter SDK.
+2. Clone this repository:
+   `git clone https://github.com/khalid-alsaleh-dev/FlutterPortfolio.git`
+3. Install dependencies and launch:
+   `cd FlutterPortfolio`
+   `flutter pub get`
+   `flutter run`
 
-- Any Operating System (MacOS, Linux, Windows)
-- Any IDE with Flutter SDK installed (Android Studio, VSCode etc)
-- A little knowledge of Dart and Flutter
+## Screenshots
 
-## Download The Project,Install Dependencies && Run The Project 
-- Run the next command to Clone the repo to your machine `git clone https://github.com/khalid-alsaleh-dev/FlutterPortfolio.git`
-- Run the next commands to install the required dependencies
-  1. `cd <../path/to/FlutterPortfolio>`
-  2. `flutter pub get`
-- Run the next command to run the project `flutter run`
-  
+![Portfolio screenshot](https://user-images.githubusercontent.com/67127338/148690822-cf264ffe-5772-4bb4-9753-a7102dfa8853.PNG)
+![Portfolio screenshot](https://user-images.githubusercontent.com/67127338/148690849-7989a4a9-b791-4230-a7b7-d67c6c9f9e5f.PNG)
 
-## 🖼 Screenshots
-![Capture](https://user-images.githubusercontent.com/67127338/148690822-cf264ffe-5772-4bb4-9753-a7102dfa8853.PNG)
-![Capture2](https://user-images.githubusercontent.com/67127338/148690849-7989a4a9-b791-4230-a7b7-d67c6c9f9e5f.PNG)
+## Author
 
-## 👨‍💻 Auther
-Khalid Al-Saleh  khalidlionel.2089@gmail.com
+Khalid Al-Saleh
